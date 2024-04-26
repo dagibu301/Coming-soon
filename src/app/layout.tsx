@@ -6,7 +6,8 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Endless Commerce",
-  description: "Coming soon",
+  description:
+    "A composable commerce OS, designed for brand operators, by brand operators.",
 };
 
 export default function RootLayout({
