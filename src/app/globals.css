@@ -31,3 +31,15 @@ body {
     text-wrap: balance;
   }
 }
+
+.main {
+  background-color: #fff;
+}
+
+.landing {
+  background: radial-gradient(
+    180% 45% at 50% 100%,
+    rgba(0, 0, 0, 0) 0%,
+    #000000 100%
+  );
+}
