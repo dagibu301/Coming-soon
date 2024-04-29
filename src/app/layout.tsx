@@ -17,7 +17,26 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <nav className="fixed ">
+          <div className="w-screen px-4 py-4 flex justify-between items-center">
+            <a
+              className="hidden lg:inline-block lg:ml-auto lg:mr-3 py-2 px-6  text-white text-sm font-bold  rounded-xl transition duration-200"
+              href="#"
+            >
+              Sign In
+            </a>
+            <a
+              className="hidden lg:inline-block py-2 px-6 bg-gray-600 hover:bg-gray-700 text-sm text-white font-bold rounded-xl transition duration-200"
+              href="#"
+            >
+              Sign up
+            </a>
+          </div>
+        </nav>
+
+        {children}
+      </body>
     </html>
   );
 }
